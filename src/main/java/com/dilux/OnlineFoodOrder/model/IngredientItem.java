@@ -23,7 +23,7 @@ public class IngredientItem {
     private IngredientCategroy ingredientCategroy;
 
     @ManyToOne
-    private IngredientCategroy categroy;
+    private IngredientCategroy category;
 
     @JsonIgnore
     @ManyToOne

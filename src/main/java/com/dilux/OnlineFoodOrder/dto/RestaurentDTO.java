@@ -16,5 +16,6 @@ public class RestaurentDTO  {
     private List<String> image;
 
     private String description;
+    private Long id;
 
 }
